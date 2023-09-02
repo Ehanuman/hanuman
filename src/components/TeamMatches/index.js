@@ -24,7 +24,7 @@ class TeamMatches extends Component {
     const fetchedData = await response.json()
     const updatedData = {
       teamBannerUrl: fetchedData.team_banner_url,
-      LatestMatchDetails: {
+      latestMatchDetails: {
         id: fetchedData.Latest_match_details.id,
         competingTeam: fetchedData.latest_match_details.competing_team,
         competingTeamLogo: fetchedData.latest_match_details.competing_team_logo,
