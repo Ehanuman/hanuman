@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 // Write your code here
 import './index.css'
 import Loader from 'react-loader-spinner'
